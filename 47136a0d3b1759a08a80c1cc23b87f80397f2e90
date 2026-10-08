@@ -16,6 +16,24 @@
       "message": "Have you verified you really use 3 and not 5 ? 5 is MediaTek default value fyi",
       "revId": "47136a0d3b1759a08a80c1cc23b87f80397f2e90",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a526ebe8_ab3bb9ff",
+        "filename": "system_ext.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-10-08T20:25:49Z",
+      "side": 1,
+      "message": "You also don\u0027t copy MediaTek fork of bluetooth_audio_policy_configuration",
+      "parentUuid": "86b179f0_b7db4c3d",
+      "revId": "47136a0d3b1759a08a80c1cc23b87f80397f2e90",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
