@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "614a88de_d69240c3",
+        "filename": "configs/audio/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 24262
+      },
+      "writtenOn": "2026-10-17T09:43:01Z",
+      "side": 1,
+      "message": "Side note, I would recommend removing encodedFormats\u003d\"\u003c\u003e\" entirely in this file (but only here for \"bluetooth\" HAL, not elsewhere), in the interest of being more future proof if new codecs are added to AOSP. Audio policy will still choose the correct HAL, it\u0027s how Pixel devices are set up. It would for example make a difference for Opus codec, that won\u0027t work in the current setup.",
+      "revId": "6123e57aa64ef0d6aef8871b148c7cb9f48bce1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
