@@ -88,6 +88,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth-service.mediatek
 
+# Connectivity
+PRODUCT_PACKAGES += \
+    conninfra_loader
+
 # ConsumerIR
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.example
