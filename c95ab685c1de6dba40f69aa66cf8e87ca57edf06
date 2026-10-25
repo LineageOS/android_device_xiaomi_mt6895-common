@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2df45aa_5027141a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26349
+      },
+      "writtenOn": "2026-10-25T10:26:43Z",
+      "side": 1,
+      "message": "Until Chris confirms https://review.lineageos.org/c/LineageOS/android_device_mediatek_sepolicy_vndr/+/507469/comments/45594545_89bd30e3",
+      "revId": "c95ab685c1de6dba40f69aa66cf8e87ca57edf06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
